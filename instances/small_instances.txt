@@ -1,0 +1,1011 @@
+Instance 1 | Small:
+Plants:
+1.- Max distribution: 1159
+-Send cost:
+      -Center 1: 755
+      -Center 2: 362
+      -Center 3: 102
+      -Center 4: 966
+      -Center 5: 605
+      -Center 6: 697
+      -Center 7: 176
+2.- Max distribution: 1653
+-Send cost:
+      -Center 1: 352
+      -Center 2: 434
+      -Center 3: 598
+      -Center 4: 973
+      -Center 5: 129
+      -Center 6: 816
+      -Center 7: 979
+3.- Max distribution: 922
+-Send cost:
+      -Center 1: 353
+      -Center 2: 802
+      -Center 3: 476
+      -Center 4: 508
+      -Center 5: 739
+      -Center 6: 656
+      -Center 7: 694
+4.- Max distribution: 966
+-Send cost:
+      -Center 1: 821
+      -Center 2: 532
+      -Center 3: 550
+      -Center 4: 109
+      -Center 5: 136
+      -Center 6: 780
+      -Center 7: 467
+5.- Max distribution: 1688
+-Send cost:
+      -Center 1: 318
+      -Center 2: 889
+      -Center 3: 739
+      -Center 4: 921
+      -Center 5: 121
+      -Center 6: 668
+      -Center 7: 990
+6.- Max distribution: 1381
+-Send cost:
+      -Center 1: 484
+      -Center 2: 119
+      -Center 3: 715
+      -Center 4: 385
+      -Center 5: 116
+      -Center 6: 767
+      -Center 7: 395
+7.- Max distribution: 1059
+-Send cost:
+      -Center 1: 205
+      -Center 2: 600
+      -Center 3: 120
+      -Center 4: 762
+      -Center 5: 571
+      -Center 6: 306
+      -Center 7: 603
+Centers:
+1.- Max manage: 651 | Operation cost: 927
+-Send cost:
+      -Zone 1: 795
+      -Zone 2: 161
+      -Zone 3: 552
+      -Zone 4: 663
+      -Zone 5: 645
+      -Zone 6: 273
+      -Zone 7: 851
+      -Zone 8: 763
+      -Zone 9: 361
+      -Zone 10: 419
+2.- Max manage: 598 | Operation cost: 1161
+-Send cost:
+      -Zone 1: 719
+      -Zone 2: 295
+      -Zone 3: 727
+      -Zone 4: 734
+      -Zone 5: 545
+      -Zone 6: 162
+      -Zone 7: 603
+      -Zone 8: 370
+      -Zone 9: 860
+      -Zone 10: 565
+3.- Max manage: 397 | Operation cost: 992
+-Send cost:
+      -Zone 1: 412
+      -Zone 2: 694
+      -Zone 3: 860
+      -Zone 4: 475
+      -Zone 5: 193
+      -Zone 6: 469
+      -Zone 7: 556
+      -Zone 8: 839
+      -Zone 9: 836
+      -Zone 10: 221
+4.- Max manage: 531 | Operation cost: 1362
+-Send cost:
+      -Zone 1: 253
+      -Zone 2: 554
+      -Zone 3: 527
+      -Zone 4: 570
+      -Zone 5: 190
+      -Zone 6: 861
+      -Zone 7: 996
+      -Zone 8: 529
+      -Zone 9: 561
+      -Zone 10: 554
+5.- Max manage: 655 | Operation cost: 1243
+-Send cost:
+      -Zone 1: 931
+      -Zone 2: 676
+      -Zone 3: 262
+      -Zone 4: 862
+      -Zone 5: 646
+      -Zone 6: 846
+      -Zone 7: 403
+      -Zone 8: 515
+      -Zone 9: 711
+      -Zone 10: 832
+6.- Max manage: 596 | Operation cost: 1084
+-Send cost:
+      -Zone 1: 155
+      -Zone 2: 221
+      -Zone 3: 614
+      -Zone 4: 164
+      -Zone 5: 963
+      -Zone 6: 134
+      -Zone 7: 824
+      -Zone 8: 625
+      -Zone 9: 564
+      -Zone 10: 233
+7.- Max manage: 701 | Operation cost: 1161
+-Send cost:
+      -Zone 1: 830
+      -Zone 2: 546
+      -Zone 3: 879
+      -Zone 4: 282
+      -Zone 5: 723
+      -Zone 6: 632
+      -Zone 7: 223
+      -Zone 8: 523
+      -Zone 9: 745
+      -Zone 10: 954
+Demand zones:
+1.- Demand amount: 326
+2.- Demand amount: 577
+3.- Demand amount: 510
+4.- Demand amount: 478
+5.- Demand amount: 981
+6.- Demand amount: 199
+7.- Demand amount: 965
+8.- Demand amount: 879
+9.- Demand amount: 171
+10.- Demand amount: 379
+
+
+Instance 2 | Small:
+Plants:
+1.- Max distribution: 1036
+-Send cost:
+      -Center 1: 470
+      -Center 2: 498
+      -Center 3: 434
+      -Center 4: 189
+      -Center 5: 939
+      -Center 6: 491
+      -Center 7: 230
+      -Center 8: 692
+      -Center 9: 688
+      -Center 10: 192
+2.- Max distribution: 1099
+-Send cost:
+      -Center 1: 179
+      -Center 2: 702
+      -Center 3: 292
+      -Center 4: 763
+      -Center 5: 687
+      -Center 6: 738
+      -Center 7: 827
+      -Center 8: 788
+      -Center 9: 457
+      -Center 10: 898
+3.- Max distribution: 1520
+-Send cost:
+      -Center 1: 496
+      -Center 2: 984
+      -Center 3: 892
+      -Center 4: 977
+      -Center 5: 289
+      -Center 6: 207
+      -Center 7: 514
+      -Center 8: 831
+      -Center 9: 210
+      -Center 10: 203
+4.- Max distribution: 1349
+-Send cost:
+      -Center 1: 626
+      -Center 2: 683
+      -Center 3: 445
+      -Center 4: 793
+      -Center 5: 627
+      -Center 6: 287
+      -Center 7: 928
+      -Center 8: 857
+      -Center 9: 951
+      -Center 10: 324
+5.- Max distribution: 1349
+-Send cost:
+      -Center 1: 387
+      -Center 2: 969
+      -Center 3: 437
+      -Center 4: 781
+      -Center 5: 333
+      -Center 6: 332
+      -Center 7: 499
+      -Center 8: 967
+      -Center 9: 325
+      -Center 10: 519
+6.- Max distribution: 1607
+-Send cost:
+      -Center 1: 144
+      -Center 2: 422
+      -Center 3: 943
+      -Center 4: 599
+      -Center 5: 791
+      -Center 6: 103
+      -Center 7: 674
+      -Center 8: 772
+      -Center 9: 838
+      -Center 10: 413
+7.- Max distribution: 1183
+-Send cost:
+      -Center 1: 243
+      -Center 2: 192
+      -Center 3: 198
+      -Center 4: 584
+      -Center 5: 795
+      -Center 6: 477
+      -Center 7: 372
+      -Center 8: 102
+      -Center 9: 350
+      -Center 10: 189
+8.- Max distribution: 1195
+-Send cost:
+      -Center 1: 552
+      -Center 2: 425
+      -Center 3: 326
+      -Center 4: 179
+      -Center 5: 933
+      -Center 6: 819
+      -Center 7: 642
+      -Center 8: 796
+      -Center 9: 728
+      -Center 10: 792
+9.- Max distribution: 1593
+-Send cost:
+      -Center 1: 208
+      -Center 2: 281
+      -Center 3: 482
+      -Center 4: 373
+      -Center 5: 377
+      -Center 6: 992
+      -Center 7: 107
+      -Center 8: 522
+      -Center 9: 651
+      -Center 10: 452
+Centers:
+1.- Max manage: 296 | Operation cost: 1375
+-Send cost:
+      -Zone 1: 539
+      -Zone 2: 868
+      -Zone 3: 515
+      -Zone 4: 765
+      -Zone 5: 938
+      -Zone 6: 892
+      -Zone 7: 561
+      -Zone 8: 189
+      -Zone 9: 674
+      -Zone 10: 754
+      -Zone 11: 609
+2.- Max manage: 204 | Operation cost: 982
+-Send cost:
+      -Zone 1: 669
+      -Zone 2: 661
+      -Zone 3: 896
+      -Zone 4: 298
+      -Zone 5: 723
+      -Zone 6: 394
+      -Zone 7: 148
+      -Zone 8: 458
+      -Zone 9: 817
+      -Zone 10: 346
+      -Zone 11: 904
+3.- Max manage: 379 | Operation cost: 647
+-Send cost:
+      -Zone 1: 356
+      -Zone 2: 391
+      -Zone 3: 215
+      -Zone 4: 388
+      -Zone 5: 590
+      -Zone 6: 976
+      -Zone 7: 484
+      -Zone 8: 915
+      -Zone 9: 120
+      -Zone 10: 380
+      -Zone 11: 351
+4.- Max manage: 763 | Operation cost: 664
+-Send cost:
+      -Zone 1: 325
+      -Zone 2: 564
+      -Zone 3: 379
+      -Zone 4: 597
+      -Zone 5: 226
+      -Zone 6: 224
+      -Zone 7: 563
+      -Zone 8: 259
+      -Zone 9: 924
+      -Zone 10: 794
+      -Zone 11: 373
+5.- Max manage: 470 | Operation cost: 1138
+-Send cost:
+      -Zone 1: 509
+      -Zone 2: 604
+      -Zone 3: 967
+      -Zone 4: 330
+      -Zone 5: 742
+      -Zone 6: 900
+      -Zone 7: 844
+      -Zone 8: 136
+      -Zone 9: 563
+      -Zone 10: 589
+      -Zone 11: 804
+6.- Max manage: 190 | Operation cost: 1074
+-Send cost:
+      -Zone 1: 514
+      -Zone 2: 597
+      -Zone 3: 206
+      -Zone 4: 328
+      -Zone 5: 205
+      -Zone 6: 281
+      -Zone 7: 480
+      -Zone 8: 564
+      -Zone 9: 168
+      -Zone 10: 880
+      -Zone 11: 132
+7.- Max manage: 927 | Operation cost: 765
+-Send cost:
+      -Zone 1: 668
+      -Zone 2: 746
+      -Zone 3: 556
+      -Zone 4: 693
+      -Zone 5: 352
+      -Zone 6: 973
+      -Zone 7: 625
+      -Zone 8: 661
+      -Zone 9: 129
+      -Zone 10: 392
+      -Zone 11: 589
+8.- Max manage: 942 | Operation cost: 1395
+-Send cost:
+      -Zone 1: 577
+      -Zone 2: 659
+      -Zone 3: 479
+      -Zone 4: 776
+      -Zone 5: 897
+      -Zone 6: 279
+      -Zone 7: 942
+      -Zone 8: 552
+      -Zone 9: 332
+      -Zone 10: 602
+      -Zone 11: 382
+9.- Max manage: 796 | Operation cost: 1426
+-Send cost:
+      -Zone 1: 339
+      -Zone 2: 222
+      -Zone 3: 640
+      -Zone 4: 884
+      -Zone 5: 196
+      -Zone 6: 105
+      -Zone 7: 839
+      -Zone 8: 284
+      -Zone 9: 891
+      -Zone 10: 360
+      -Zone 11: 801
+10.- Max manage: 721 | Operation cost: 880
+-Send cost:
+      -Zone 1: 287
+      -Zone 2: 250
+      -Zone 3: 931
+      -Zone 4: 459
+      -Zone 5: 272
+      -Zone 6: 634
+      -Zone 7: 537
+      -Zone 8: 543
+      -Zone 9: 660
+      -Zone 10: 706
+      -Zone 11: 341
+Demand zones:
+1.- Demand amount: 989
+2.- Demand amount: 114
+3.- Demand amount: 878
+4.- Demand amount: 560
+5.- Demand amount: 606
+6.- Demand amount: 612
+7.- Demand amount: 506
+8.- Demand amount: 739
+9.- Demand amount: 962
+10.- Demand amount: 546
+11.- Demand amount: 801
+
+
+Instance 3 | Small:
+Plants:
+1.- Max distribution: 805
+-Send cost:
+      -Center 1: 152
+      -Center 2: 578
+      -Center 3: 593
+      -Center 4: 479
+      -Center 5: 596
+      -Center 6: 908
+      -Center 7: 338
+      -Center 8: 726
+      -Center 9: 264
+      -Center 10: 425
+2.- Max distribution: 837
+-Send cost:
+      -Center 1: 894
+      -Center 2: 730
+      -Center 3: 149
+      -Center 4: 699
+      -Center 5: 922
+      -Center 6: 816
+      -Center 7: 311
+      -Center 8: 271
+      -Center 9: 197
+      -Center 10: 167
+3.- Max distribution: 1486
+-Send cost:
+      -Center 1: 580
+      -Center 2: 866
+      -Center 3: 878
+      -Center 4: 909
+      -Center 5: 261
+      -Center 6: 957
+      -Center 7: 177
+      -Center 8: 443
+      -Center 9: 337
+      -Center 10: 232
+4.- Max distribution: 1254
+-Send cost:
+      -Center 1: 256
+      -Center 2: 993
+      -Center 3: 522
+      -Center 4: 533
+      -Center 5: 873
+      -Center 6: 500
+      -Center 7: 631
+      -Center 8: 748
+      -Center 9: 980
+      -Center 10: 749
+5.- Max distribution: 1212
+-Send cost:
+      -Center 1: 700
+      -Center 2: 405
+      -Center 3: 435
+      -Center 4: 124
+      -Center 5: 388
+      -Center 6: 921
+      -Center 7: 454
+      -Center 8: 133
+      -Center 9: 809
+      -Center 10: 662
+6.- Max distribution: 1442
+-Send cost:
+      -Center 1: 736
+      -Center 2: 928
+      -Center 3: 443
+      -Center 4: 657
+      -Center 5: 305
+      -Center 6: 595
+      -Center 7: 765
+      -Center 8: 433
+      -Center 9: 382
+      -Center 10: 428
+Centers:
+1.- Max manage: 654 | Operation cost: 1259
+-Send cost:
+      -Zone 1: 880
+      -Zone 2: 522
+      -Zone 3: 107
+      -Zone 4: 242
+      -Zone 5: 302
+      -Zone 6: 369
+      -Zone 7: 181
+      -Zone 8: 238
+2.- Max manage: 145 | Operation cost: 1368
+-Send cost:
+      -Zone 1: 599
+      -Zone 2: 590
+      -Zone 3: 322
+      -Zone 4: 704
+      -Zone 5: 590
+      -Zone 6: 340
+      -Zone 7: 100
+      -Zone 8: 543
+3.- Max manage: 862 | Operation cost: 1021
+-Send cost:
+      -Zone 1: 291
+      -Zone 2: 853
+      -Zone 3: 784
+      -Zone 4: 886
+      -Zone 5: 312
+      -Zone 6: 770
+      -Zone 7: 590
+      -Zone 8: 805
+4.- Max manage: 647 | Operation cost: 1480
+-Send cost:
+      -Zone 1: 948
+      -Zone 2: 245
+      -Zone 3: 525
+      -Zone 4: 270
+      -Zone 5: 789
+      -Zone 6: 639
+      -Zone 7: 875
+      -Zone 8: 753
+5.- Max manage: 880 | Operation cost: 652
+-Send cost:
+      -Zone 1: 984
+      -Zone 2: 561
+      -Zone 3: 537
+      -Zone 4: 734
+      -Zone 5: 508
+      -Zone 6: 213
+      -Zone 7: 882
+      -Zone 8: 345
+6.- Max manage: 427 | Operation cost: 724
+-Send cost:
+      -Zone 1: 605
+      -Zone 2: 103
+      -Zone 3: 755
+      -Zone 4: 388
+      -Zone 5: 214
+      -Zone 6: 478
+      -Zone 7: 862
+      -Zone 8: 467
+7.- Max manage: 598 | Operation cost: 1491
+-Send cost:
+      -Zone 1: 802
+      -Zone 2: 152
+      -Zone 3: 134
+      -Zone 4: 215
+      -Zone 5: 485
+      -Zone 6: 626
+      -Zone 7: 648
+      -Zone 8: 530
+8.- Max manage: 652 | Operation cost: 1461
+-Send cost:
+      -Zone 1: 200
+      -Zone 2: 231
+      -Zone 3: 210
+      -Zone 4: 677
+      -Zone 5: 583
+      -Zone 6: 817
+      -Zone 7: 459
+      -Zone 8: 312
+9.- Max manage: 260 | Operation cost: 828
+-Send cost:
+      -Zone 1: 944
+      -Zone 2: 456
+      -Zone 3: 161
+      -Zone 4: 479
+      -Zone 5: 996
+      -Zone 6: 583
+      -Zone 7: 926
+      -Zone 8: 689
+10.- Max manage: 402 | Operation cost: 1260
+-Send cost:
+      -Zone 1: 127
+      -Zone 2: 817
+      -Zone 3: 140
+      -Zone 4: 845
+      -Zone 5: 172
+      -Zone 6: 480
+      -Zone 7: 193
+      -Zone 8: 568
+Demand zones:
+1.- Demand amount: 781
+2.- Demand amount: 234
+3.- Demand amount: 451
+4.- Demand amount: 966
+5.- Demand amount: 147
+6.- Demand amount: 837
+7.- Demand amount: 162
+8.- Demand amount: 505
+
+
+Instance 4 | Small:
+Plants:
+1.- Max distribution: 1182
+-Send cost:
+      -Center 1: 940
+      -Center 2: 680
+      -Center 3: 346
+      -Center 4: 370
+      -Center 5: 645
+      -Center 6: 809
+      -Center 7: 506
+      -Center 8: 872
+      -Center 9: 743
+2.- Max distribution: 726
+-Send cost:
+      -Center 1: 356
+      -Center 2: 482
+      -Center 3: 587
+      -Center 4: 167
+      -Center 5: 956
+      -Center 6: 165
+      -Center 7: 304
+      -Center 8: 906
+      -Center 9: 949
+3.- Max distribution: 1553
+-Send cost:
+      -Center 1: 952
+      -Center 2: 312
+      -Center 3: 732
+      -Center 4: 160
+      -Center 5: 735
+      -Center 6: 825
+      -Center 7: 466
+      -Center 8: 431
+      -Center 9: 464
+4.- Max distribution: 1558
+-Send cost:
+      -Center 1: 715
+      -Center 2: 152
+      -Center 3: 387
+      -Center 4: 390
+      -Center 5: 160
+      -Center 6: 415
+      -Center 7: 916
+      -Center 8: 824
+      -Center 9: 926
+5.- Max distribution: 1319
+-Send cost:
+      -Center 1: 735
+      -Center 2: 524
+      -Center 3: 905
+      -Center 4: 168
+      -Center 5: 656
+      -Center 6: 670
+      -Center 7: 706
+      -Center 8: 236
+      -Center 9: 217
+6.- Max distribution: 1083
+-Send cost:
+      -Center 1: 484
+      -Center 2: 824
+      -Center 3: 830
+      -Center 4: 869
+      -Center 5: 470
+      -Center 6: 586
+      -Center 7: 875
+      -Center 8: 362
+      -Center 9: 917
+7.- Max distribution: 827
+-Send cost:
+      -Center 1: 994
+      -Center 2: 415
+      -Center 3: 637
+      -Center 4: 216
+      -Center 5: 251
+      -Center 6: 592
+      -Center 7: 885
+      -Center 8: 537
+      -Center 9: 474
+8.- Max distribution: 1034
+-Send cost:
+      -Center 1: 681
+      -Center 2: 681
+      -Center 3: 222
+      -Center 4: 364
+      -Center 5: 248
+      -Center 6: 750
+      -Center 7: 912
+      -Center 8: 769
+      -Center 9: 472
+9.- Max distribution: 924
+-Send cost:
+      -Center 1: 437
+      -Center 2: 531
+      -Center 3: 472
+      -Center 4: 830
+      -Center 5: 589
+      -Center 6: 295
+      -Center 7: 437
+      -Center 8: 458
+      -Center 9: 420
+10.- Max distribution: 1267
+-Send cost:
+      -Center 1: 302
+      -Center 2: 167
+      -Center 3: 993
+      -Center 4: 303
+      -Center 5: 447
+      -Center 6: 554
+      -Center 7: 210
+      -Center 8: 378
+      -Center 9: 320
+Centers:
+1.- Max manage: 408 | Operation cost: 1049
+-Send cost:
+      -Zone 1: 237
+      -Zone 2: 193
+      -Zone 3: 563
+      -Zone 4: 443
+      -Zone 5: 706
+      -Zone 6: 480
+      -Zone 7: 855
+      -Zone 8: 641
+      -Zone 9: 181
+      -Zone 10: 754
+      -Zone 11: 294
+      -Zone 12: 413
+2.- Max manage: 384 | Operation cost: 1053
+-Send cost:
+      -Zone 1: 742
+      -Zone 2: 144
+      -Zone 3: 446
+      -Zone 4: 718
+      -Zone 5: 723
+      -Zone 6: 429
+      -Zone 7: 955
+      -Zone 8: 398
+      -Zone 9: 862
+      -Zone 10: 786
+      -Zone 11: 373
+      -Zone 12: 220
+3.- Max manage: 590 | Operation cost: 1311
+-Send cost:
+      -Zone 1: 631
+      -Zone 2: 280
+      -Zone 3: 382
+      -Zone 4: 866
+      -Zone 5: 898
+      -Zone 6: 132
+      -Zone 7: 953
+      -Zone 8: 450
+      -Zone 9: 609
+      -Zone 10: 192
+      -Zone 11: 787
+      -Zone 12: 911
+4.- Max manage: 771 | Operation cost: 1255
+-Send cost:
+      -Zone 1: 898
+      -Zone 2: 272
+      -Zone 3: 449
+      -Zone 4: 851
+      -Zone 5: 336
+      -Zone 6: 595
+      -Zone 7: 760
+      -Zone 8: 943
+      -Zone 9: 848
+      -Zone 10: 673
+      -Zone 11: 665
+      -Zone 12: 317
+5.- Max manage: 899 | Operation cost: 845
+-Send cost:
+      -Zone 1: 617
+      -Zone 2: 789
+      -Zone 3: 357
+      -Zone 4: 217
+      -Zone 5: 766
+      -Zone 6: 960
+      -Zone 7: 312
+      -Zone 8: 551
+      -Zone 9: 212
+      -Zone 10: 480
+      -Zone 11: 691
+      -Zone 12: 440
+6.- Max manage: 182 | Operation cost: 1124
+-Send cost:
+      -Zone 1: 178
+      -Zone 2: 400
+      -Zone 3: 598
+      -Zone 4: 247
+      -Zone 5: 781
+      -Zone 6: 361
+      -Zone 7: 743
+      -Zone 8: 681
+      -Zone 9: 438
+      -Zone 10: 982
+      -Zone 11: 641
+      -Zone 12: 333
+7.- Max manage: 837 | Operation cost: 1130
+-Send cost:
+      -Zone 1: 436
+      -Zone 2: 186
+      -Zone 3: 303
+      -Zone 4: 590
+      -Zone 5: 503
+      -Zone 6: 157
+      -Zone 7: 560
+      -Zone 8: 279
+      -Zone 9: 292
+      -Zone 10: 469
+      -Zone 11: 636
+      -Zone 12: 921
+8.- Max manage: 823 | Operation cost: 1275
+-Send cost:
+      -Zone 1: 956
+      -Zone 2: 403
+      -Zone 3: 674
+      -Zone 4: 731
+      -Zone 5: 165
+      -Zone 6: 560
+      -Zone 7: 995
+      -Zone 8: 408
+      -Zone 9: 895
+      -Zone 10: 692
+      -Zone 11: 917
+      -Zone 12: 279
+9.- Max manage: 605 | Operation cost: 1252
+-Send cost:
+      -Zone 1: 529
+      -Zone 2: 419
+      -Zone 3: 641
+      -Zone 4: 991
+      -Zone 5: 467
+      -Zone 6: 357
+      -Zone 7: 643
+      -Zone 8: 538
+      -Zone 9: 415
+      -Zone 10: 439
+      -Zone 11: 457
+      -Zone 12: 740
+Demand zones:
+1.- Demand amount: 380
+2.- Demand amount: 165
+3.- Demand amount: 397
+4.- Demand amount: 698
+5.- Demand amount: 777
+6.- Demand amount: 949
+7.- Demand amount: 481
+8.- Demand amount: 618
+9.- Demand amount: 403
+10.- Demand amount: 466
+11.- Demand amount: 405
+12.- Demand amount: 337
+
+
+Instance 5 | Small:
+Plants:
+1.- Max distribution: 2257
+-Send cost:
+      -Center 1: 554
+      -Center 2: 511
+      -Center 3: 930
+      -Center 4: 526
+      -Center 5: 901
+      -Center 6: 345
+      -Center 7: 951
+2.- Max distribution: 1671
+-Send cost:
+      -Center 1: 125
+      -Center 2: 242
+      -Center 3: 609
+      -Center 4: 806
+      -Center 5: 846
+      -Center 6: 405
+      -Center 7: 846
+3.- Max distribution: 1478
+-Send cost:
+      -Center 1: 293
+      -Center 2: 453
+      -Center 3: 355
+      -Center 4: 836
+      -Center 5: 397
+      -Center 6: 530
+      -Center 7: 491
+4.- Max distribution: 1656
+-Send cost:
+      -Center 1: 917
+      -Center 2: 701
+      -Center 3: 476
+      -Center 4: 519
+      -Center 5: 238
+      -Center 6: 728
+      -Center 7: 359
+5.- Max distribution: 1532
+-Send cost:
+      -Center 1: 876
+      -Center 2: 457
+      -Center 3: 574
+      -Center 4: 452
+      -Center 5: 681
+      -Center 6: 672
+      -Center 7: 708
+Centers:
+1.- Max manage: 436 | Operation cost: 1105
+-Send cost:
+      -Zone 1: 114
+      -Zone 2: 911
+      -Zone 3: 743
+      -Zone 4: 721
+      -Zone 5: 824
+      -Zone 6: 160
+      -Zone 7: 573
+      -Zone 8: 105
+      -Zone 9: 210
+      -Zone 10: 140
+      -Zone 11: 808
+2.- Max manage: 379 | Operation cost: 1378
+-Send cost:
+      -Zone 1: 497
+      -Zone 2: 528
+      -Zone 3: 726
+      -Zone 4: 566
+      -Zone 5: 198
+      -Zone 6: 740
+      -Zone 7: 944
+      -Zone 8: 236
+      -Zone 9: 794
+      -Zone 10: 264
+      -Zone 11: 533
+3.- Max manage: 359 | Operation cost: 950
+-Send cost:
+      -Zone 1: 922
+      -Zone 2: 699
+      -Zone 3: 254
+      -Zone 4: 128
+      -Zone 5: 892
+      -Zone 6: 403
+      -Zone 7: 470
+      -Zone 8: 762
+      -Zone 9: 690
+      -Zone 10: 732
+      -Zone 11: 454
+4.- Max manage: 311 | Operation cost: 1201
+-Send cost:
+      -Zone 1: 868
+      -Zone 2: 958
+      -Zone 3: 798
+      -Zone 4: 497
+      -Zone 5: 975
+      -Zone 6: 481
+      -Zone 7: 974
+      -Zone 8: 409
+      -Zone 9: 237
+      -Zone 10: 305
+      -Zone 11: 707
+5.- Max manage: 394 | Operation cost: 1135
+-Send cost:
+      -Zone 1: 229
+      -Zone 2: 984
+      -Zone 3: 808
+      -Zone 4: 451
+      -Zone 5: 458
+      -Zone 6: 473
+      -Zone 7: 126
+      -Zone 8: 546
+      -Zone 9: 580
+      -Zone 10: 448
+      -Zone 11: 630
+6.- Max manage: 725 | Operation cost: 1353
+-Send cost:
+      -Zone 1: 518
+      -Zone 2: 600
+      -Zone 3: 160
+      -Zone 4: 371
+      -Zone 5: 613
+      -Zone 6: 598
+      -Zone 7: 459
+      -Zone 8: 773
+      -Zone 9: 198
+      -Zone 10: 871
+      -Zone 11: 571
+7.- Max manage: 857 | Operation cost: 888
+-Send cost:
+      -Zone 1: 135
+      -Zone 2: 787
+      -Zone 3: 341
+      -Zone 4: 758
+      -Zone 5: 877
+      -Zone 6: 675
+      -Zone 7: 672
+      -Zone 8: 632
+      -Zone 9: 813
+      -Zone 10: 890
+      -Zone 11: 962
+Demand zones:
+1.- Demand amount: 835
+2.- Demand amount: 259
+3.- Demand amount: 763
+4.- Demand amount: 520
+5.- Demand amount: 736
+6.- Demand amount: 685
+7.- Demand amount: 651
+8.- Demand amount: 352
+9.- Demand amount: 667
+10.- Demand amount: 528
+11.- Demand amount: 585
+
+

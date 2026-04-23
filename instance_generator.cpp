@@ -1,7 +1,10 @@
+#include <cstddef>
 #include <iostream>
 #include <random>
 #include <map>
 #include <vector>
+#include <fstream>
+#include <filesystem>
 
 const int baseOperationCost = 500;
 
@@ -27,7 +30,7 @@ struct demandZone {
 };
 
 struct Instance {
-    SIZE size;
+    std::string size;
     int systemTotalDemand;
     int maxOperatingCenters;
     std::vector<Plant> plants;
@@ -44,18 +47,19 @@ Center center_generator(int maxManage, int numZones, int operationCost);
 
 int sumDemand(const std::vector<demandZone> &zones);
 
-void printInstances(std::vector<Instance> &instances);
+void writeInstaces(std::vector<Instance> &instances, SIZE size);
 
 int main (int argc, char *argv[]) {
     // Metodo de uso: ./instance_generator <# instancias> <tamaño de problema>
     if (argc != 3) {
-        std::cout << "Metodo de uso: ./instance_generator <# instancias> <tamaño de problema (s, m, b)>" << std::endl;
+        std::cout << "Metodo de uso: ./instance_generator <# instancias(1-9)> <tamaño de problema (s, m, b)>" << std::endl;
         return 1;
     }
+    // TODO: Ver como manejar el caso en que se ingrese en argv[1] un numero de 2 digitos
     int numInstances = *argv[1] - '0';
     SIZE size = static_cast<SIZE>(*argv[2]);
     std::vector<Instance> instances = instance_generator(numInstances, size);
-    printInstances(instances);
+    writeInstaces(instances, size);
     return 0;
 }
 
@@ -66,26 +70,31 @@ std::vector<Instance> instance_generator(int numInstances, SIZE size) {
     std::uniform_int_distribution<> centerDistr;
     std::uniform_int_distribution<> zoneDistr;
     std::uniform_int_distribution<> generalDistr(100, 1000);
+    std::string insSize;
     switch (size) {
         case SMALL:
             plantDistr = std::uniform_int_distribution<> (3, 10);
             centerDistr = std::uniform_int_distribution<> (6, 12);
             zoneDistr = std::uniform_int_distribution<> (8, 15);
+            insSize = "Small";
             break;
         case MEDIUM:
             plantDistr = std::uniform_int_distribution<> (11, 20);
             centerDistr = std::uniform_int_distribution<> (12, 24);
             zoneDistr = std::uniform_int_distribution<> (16, 30);
+            insSize = "Medium";
             break;
         case BIG:
             plantDistr = std::uniform_int_distribution<> (21, 35);
             centerDistr = std::uniform_int_distribution<> (25, 40);
             zoneDistr = std::uniform_int_distribution<> (31, 45);
+            insSize = "Big";
             break;
     }
     std::vector<Instance> output(numInstances);
-    for (int i = 0; i < output.size(); i++) {
+    for (size_t i = 0; i < output.size(); i++) {
         Instance instance;
+        instance.size = insSize;
         int numPlants = plantDistr(gen);
         int numCenters = centerDistr(gen);
         int numZones = zoneDistr(gen);
@@ -147,31 +156,48 @@ int sumDemand(const std::vector<demandZone> &zones) {
     return acum;
 }
 
-void printInstances(std::vector<Instance> &instances) {
+void writeInstaces(std::vector<Instance> &instances, SIZE size) {
+    if (!std::filesystem::exists("instances")) {
+        std::filesystem::create_directory("instances");
+    }
+    std::string outPath;
+    switch (size) {
+        case SMALL:
+            outPath = "instances/small_instances.txt";
+            break;
+        case MEDIUM:
+            outPath = "instances/medium_instances.txt";
+            break;
+        case BIG:
+            outPath = "instances/big_instances.txt";
+            break;
+    }
+    std::ofstream output(outPath);
     int numIns = 1;
     for (const Instance &ins : instances) {
-        std::cout << "Instance " << numIns << ":" << std::endl;
-        std::cout << "Plants:" << std::endl;
-        for (const Plant &plant : ins.plants) {
-            std::cout << "-Max distribution: " << plant.maxDistribution << std::endl;
-            std::cout << "-Send cost:\n";
-            for (const auto key : plant.costs) {
-                std::cout << "      -Center " << key.first << ": " << key.second << std::endl;
+        output << "Instance " << numIns << " | " << ins.size << ":\n";
+        output << "Plants:\n";
+        for (size_t i = 0; i < ins.plants.size(); i++) {
+            output << i + 1 << ".- Max distribution: " << ins.plants.at(i).maxDistribution << "\n";
+            output << "-Send cost:\n";
+            for (const auto key : ins.plants.at(i).costs) {
+                output << "      -Center " << key.first << ": " << key.second << "\n";
             }
         }
-        std::cout << "Centers:" << std::endl;
-        for (const Center &center : ins.centers) {
-            std::cout << "-Max manage: " << center.maxManage << " | " << "Operation cost: " << center.operationCost << std::endl;
-            std::cout << "-Send cost:\n";
-            for (const auto key : center.costs) {
-                std::cout << "      -Zone " << key.first << ": " << key.second << std::endl;
+        output << "Centers:" << "\n";
+        for (size_t i = 0; i < ins.centers.size(); i++) {
+            output << i + 1 << ".- Max manage: " << ins.centers.at(i).maxManage << " | " << "Operation cost: " << ins.centers.at(i).operationCost << "\n";
+            output << "-Send cost:\n";
+            for (const auto key : ins.centers.at(i).costs) {
+                output << "      -Zone " << key.first << ": " << key.second << "\n";
             }
         }
-        std::cout << "Demand zones:" << std::endl;
-        for (const demandZone &zone : ins.demandZones) {
-            std::cout << "-Demand amount: " << zone.demandAmount << std::endl;
+        output << "Demand zones:" << "\n";
+        for (size_t i = 0; i < ins.demandZones.size(); i++) {
+            output << i + 1 << ".- Demand amount: " << ins.demandZones.at(i).demandAmount << "\n";
         }
         numIns++;
-        std::cout << "############################################################################" << std::endl;
+        output << "\n" << "\n";
     }
+    output.close();
 }
